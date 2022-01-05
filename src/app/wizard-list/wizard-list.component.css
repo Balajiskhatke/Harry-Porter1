@@ -1,0 +1,77 @@
+/* 
+.grid-item .character-image{
+    height:100px;
+     width:100px;
+     color: rgba(0, 0, 0, 0.87);
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.grid-item .Male{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.grid-item .Female{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+} */
+
+.characters-grid{
+
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(23%,1fr));
+
+}
+.grid-item .Male{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.grid-item .Female{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.characters-grid .box{
+
+    width: 25%;
+    height: 200px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.Details{
+
+    position: absolute;
+    border-radius: 25px;
+    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5); */
+    size: 10px;
+    font-size: 10px;
+    /* color: #3F5972; */
+    background-color: #3F5972;
+    bottom: 10px;
+    left: 115px;
+    
+}
+.Detail{
+
+    position: relative;
+    border-radius: 25px;
+    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5); */
+    size: 15px;
+    font-size: 15px;
+    /* color: #3F5972; */
+    background-color: #3F5972;
+    bottom: 10px;
+    /* left: 115px; */
+    
+}
+.img{
+    height:100px;
+    width: 100px;
+}

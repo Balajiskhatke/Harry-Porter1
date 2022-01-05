@@ -1,0 +1,35 @@
+.grid-item .character-image{
+    height:100px;
+     width:100px;
+     color: rgba(0, 0, 0, 0.87);
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.grid-item .Male{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.grid-item .Female{
+    height:100px;
+    width:100px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.Details{
+
+    position: relative;
+    border-radius: 25px;
+    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5); */
+    size: 20px;
+    font-size: 20px;
+    /* color: #3F5972; */
+    background-color: #3F5972;
+    /* bottom: 10px; */
+    /* left: 115px; */
+    
+}
+.img{
+    height:100px;
+    width: 100px;
+}

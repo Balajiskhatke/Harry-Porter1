@@ -1,0 +1,25 @@
+.home_display{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        margin-top: 50%;
+        text-align: center;
+ }
+ .Details{
+
+    position: relative;
+    border-radius: 25px;
+    /* box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5); */
+    size: 20px;
+    font-size: 20px;
+    /* color: #3F5972; */
+    background-color: #3F5972;
+    /* bottom: 10px; */
+    /* left: 115px; */
+    
+}

@@ -1,0 +1,28 @@
+<!-- <input class="Details" type="button" value="Go back!" onclick="history.back()"> -->
+<h2>Characters</h2>
+<button class="Detail" onclick="history.back()">Back</button>
+<div class="grid-container characters-grid ">
+    <div class="row">
+        <div class="grid-item col-3 box col-6 col-sm-4 col-md-3" *ngFor="let character of data">
+            <p>
+                Name:{{ character.name  }} <br>
+                Gender:{{character.gender}} <br>
+                <span *ngIf = "character.image else elseblock" >      
+                    <img class="img" [src]="character?.image">
+                </span>
+                        <ng-template #elseblock>
+                            <img class="img" src="assets/Images/DefaultImage.jpg" alt="">
+                            <!-- <img class="Male" *ngIf="character.gender == 'male'" src="assets/Images/MaleAni.jpg"/>
+                            <img class="Female" *ngIf="character.gender == 'female'" src="assets/Images/Femaleani.jpg" /> -->
+                            
+                        </ng-template>
+            <br>
+            
+            
+            <button class="Details" (click)="onClick(character)">More Details</button> 
+            
+            </p>
+        </div>
+    </div>
+</div>
+
